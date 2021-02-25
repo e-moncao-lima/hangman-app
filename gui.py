@@ -23,7 +23,11 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(MainWindow.sizePolicy().hasHeightForWidth())
         MainWindow.setSizePolicy(sizePolicy)
         MainWindow.setMinimumSize(QtCore.QSize(719, 586))
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("img/icon_hangman.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        MainWindow.setWindowIcon(icon)
         MainWindow.setStyleSheet("background-color: rgb(231, 234, 255);")
+        MainWindow.setToolButtonStyle(QtCore.Qt.ToolButtonIconOnly)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout = QtWidgets.QGridLayout(self.centralwidget)
@@ -1067,7 +1071,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Jogo da Forca"))
         self.label.setText(_translate("MainWindow", "Chute uma letra:"))
         self.btNovaPalavra.setText(_translate("MainWindow", "Nova Palavra"))
         self.btB.setText(_translate("MainWindow", "B"))

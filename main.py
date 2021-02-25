@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-App.py    
+Hangman Desktop     -- main.py    
 Created on Wed Feb  3 18:26:17 2021
 
 @author: Emanuel Monção Lima
