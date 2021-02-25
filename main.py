@@ -8,7 +8,7 @@ Created on Wed Feb  3 18:26:17 2021
 
 ## Imports
 from gui import *
-from wordlists import hangman_wordlist2 as wl
+from wordlists import hangman_wordlist as wl
 
 from PyQt5.QtWidgets import QPushButton, QMessageBox
 from unidecode import unidecode
