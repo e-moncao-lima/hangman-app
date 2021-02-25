@@ -3,7 +3,7 @@
 <p align="center">A desktop application of the popular casual game called "Hangman"</p>
 
 <h1 align="center">
-<img src="screenshots\homescreen.PNG"/>
+<img src="screenshots\homescreen.PNG" width=350/>
 </h1>
 
 
@@ -15,7 +15,7 @@
 [] Tabela de Conteúdos
 
 
-### Features
+### :memo: Features
 
 :point_right: English words
 
@@ -25,6 +25,20 @@
 
 
 [] Demonstração da Aplicação
+
+By the time the window appears it will be displayed the dynamic keyboard, the blank spaces corresponding to the random word and the life count display which will also be represented by the hanger animation. It is ready to play and have fun!
+
+As you click a letter it will replace the corresponding blank space in case it is included among the letters of the words. Otherwise, you will lose a life and a part of the hangman's body will so be hanged.
+
+<h4 align="center"> 
+	<img src="screenshots\middlegame.PNG" width=200/>
+    <img src="screenshots\almost_losing.PNG" width="200" />
+</h4>
+
+There are six lives at most. The life counter will decrease at every mistaken  and will be represented by a body part hanged.
+
+As soon as all body parts have been hanged it means you have lost the game. On the other hand, if you guessed all of the letter from the secret word it means you have won it! In both cases a message box will pop up and the keyboard will be locked until the "New Word" (Nova Palavra) Button is pressed.
+
 
 [] Pré-requisitos e como rodar a aplicação/testes
 
@@ -39,7 +53,7 @@ The following tools have been used so far to build this application:
 
 
 
-### Author
+### :pencil2: Author
 </br>
 
 <a href="https://github.com/e-moncao-lima">
