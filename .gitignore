@@ -1,3 +1,4 @@
 *.log
 *.ui
+venv_hangman/
 __pycache__/

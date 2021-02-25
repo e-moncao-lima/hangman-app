@@ -31,8 +31,8 @@ By the time the window appears it will be displayed the dynamic keyboard, the bl
 As you click a letter it will replace the corresponding blank space in case it is included among the letters of the words. Otherwise, you will lose a life and a part of the hangman's body will so be hanged.
 
 <h4 align="center"> 
-	<img src="screenshots\middlegame.PNG" width=350/>
-    <img src="screenshots\almost_losing.PNG" width="350" />
+	<img src="screenshots\middlegame.PNG" width=400/>
+    <img src="screenshots\almost_losing.PNG" width="400" />
 </h4>
 
 There are six lives at most. The life counter will decrease at every mistaken  and will be represented by a body part hanged.
@@ -45,7 +45,6 @@ As soon as all body parts have been hanged it means you have lost the game. On t
 </h4>
 
 [] Pré-requisitos e como rodar a aplicação/testes
-
 
 ### 🛠 Tools used
 
