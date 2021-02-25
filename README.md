@@ -10,14 +10,13 @@
 <h4 align="center"> 
 	🚧  Hangman Desktop App -- Working on it...  🚧
 </h4>
-
 </br>
 
 <p align="center">
  <a href="#memo-features">Features</a> • 
- <a href="#world-map-app-demonstration">App Demonstration</a> • 
- <a href="#floppy-disk-installation">Installation</a> • 
- <a href="#hammer-and-wrench-tools">Tools</a> • 
+ <a href="#world_map-app-demonstration">App Demonstration</a> • 
+ <a href="#floppy_disk-installation">Installation</a> • 
+ <a href="#hammer_and_wrench-tools">Tools</a> • 
  <a href="#pencil2-author">Author</a> •  
  <a href="#license">License</a>
 </p>
@@ -39,7 +38,6 @@
 By the time the window appears it will be displayed the dynamic keyboard, the blank spaces corresponding to the random word and the life count display which will also be represented by the hanger animation. It is ready to play and have fun!
 
 As you click a letter it will replace the corresponding blank space in case it is included among the letters of the words. Otherwise, you will lose a life and a part of the hangman's body will so be hanged.
-
 </br>
 
 <h4 align="center"> 
@@ -50,7 +48,6 @@ As you click a letter it will replace the corresponding blank space in case it i
 There are six lives at most. The life counter will decrease at every mistake and will be represented by a body part hanged.
 
 As soon as all body parts have been hanged it means you have lost the game. On the other hand, if you guessed all letters from the secret word it means you have won it! In both cases a message box will pop up and the keyboard will be locked until the "New Word" (Nova Palavra) Button is pressed.
-
 </br>
 
 <h4 align="center"> 
@@ -72,7 +69,7 @@ The following tools have been used so far to build this application:
 - [Python](https://www.python.org/)
 - [PyQt5](https://pypi.org/project/PyQt5/)
 - [Qt Designer](https://build-system.fman.io/qt-designer-download)
-
+</br>
 
 ### :pencil2: Author
 </br>
