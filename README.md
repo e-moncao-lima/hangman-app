@@ -2,8 +2,9 @@
 
 <p align="center">A desktop application of the popular casual game called "Hangman"</p>
 
-
-<img align="center" src="screenshots\homescreen.PNG"/>
+<h1 align="center">
+<img src="screenshots\homescreen.PNG"/>
+</h1>
 
 
 <h4 align="center"> 
@@ -17,7 +18,9 @@
 ### Features
 
 :point_right: English words
+
 :point_right: Clean-looking screen
+
 :point_right: Funny animated hanging man
 
 
