@@ -76,6 +76,20 @@ $ git clone https://github.com/e-moncao-lima/hangman-app.git
 And then run "hangman.exe" and have some fun!
 </br>
 
+#### Creating Your Own Executable File
+
+Assuming your system with _python 3.8+_ and having this repository cloned as mentioned above, you might want to install PyInstaller running the following from `cmd`:
+
+```bash
+$ pip install pyinstaller
+$ pyinstaller --one-file --windowed main.py
+```
+
+Two new directories will then be created: `build` and `dist` as well as a `.spec` file. The `main.exe` file will be within `dist` folder and you'll have to move it from there to where the other files are. You are allowed to delete all created files and folders but `main.exe` if wanted so.
+
+It is now ready to play. You might rename the executable file if you will. Moreover it is double click and play!
+<br/>
+
 ### 🛠 Tools
 </br>
 
