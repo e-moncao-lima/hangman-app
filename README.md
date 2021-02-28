@@ -69,9 +69,9 @@ Assuming the system has _git_ installed, open windows command prompt by typing "
 
 Type then
 
----bash
-        $ git clone https://github.com/e-moncao-lima/hangman-app.git
----
+```bash
+$ git clone https://github.com/e-moncao-lima/hangman-app.git
+```
 
 And then run "hangman.exe" and have some fun!
 </br>
