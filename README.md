@@ -63,14 +63,14 @@ Download this repository by navigating to the top level of the project and then 
 
 To run the desktop app just double click on "hangman.exe" created with PyInstaller. Probably the antivirus program will see it as suspicious and naturally will run a scan. As soon as the scan is finished it will start the main window. It is then ready to play and have fun!
 
-#### - Cloning From Terminal
+#### Cloning From Terminal
 
 Assuming the system has _git_ installed, open windows command prompt by typing "cmd" in searchbar.
 
 Type then
 
 ''' bash
-$ git clone https://github.com/e-moncao-lima/hangman-app.git
+        $ git clone https://github.com/e-moncao-lima/hangman-app.git
 '''
 
 And then run "hangman.exe" and have some fun!
