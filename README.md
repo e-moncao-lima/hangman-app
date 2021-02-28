@@ -69,7 +69,7 @@ Assuming the system has _git_ installed, open windows command prompt by typing "
 
 Type then
 
-'''console
+''' bash
 $ git clone https://github.com/e-moncao-lima/hangman-app.git
 '''
 
