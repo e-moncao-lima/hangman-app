@@ -8,11 +8,10 @@ Created on Wed Feb  3 18:26:17 2021
 
 ## Imports
 from gui import *
-from wordlists import hangman_wordlist as wl
 
 from PyQt5.QtWidgets import QPushButton, QMessageBox
 from unidecode import unidecode
-import random, string
+import random, string, json
 from playsound import playsound
 import sys
 
@@ -22,7 +21,9 @@ class Hangman(Ui_MainWindow):
     def __init__(self, window):
         # Game engine setup
         self.stage = 'img/draw_forca-6.png'
-        self.word_list = wl.word_list
+        self.word_dict = self.get_words_from('words.json')
+        self.category_selected = list()
+        self.word_list = list()
         self.chosen_word = ''
         self.display = list() 
         self.invisible_keys = list()
@@ -65,7 +66,24 @@ class Hangman(Ui_MainWindow):
         # Choose a new word to start the game
         self.new_game()
 
+    def get_words_from(self, file):
+        with open(file, 'r') as f:
+            words_dict = f.read()
+
+        return json.loads(words_dict)
+
+    def get_from_category(self):
+        # if self.category_selected     ## checar se as categorias selecionadas mudaram
+        self.word_list = list()
+        for key, value in self.word_dict.items():
+            if key in self.category_selected:
+                self.word_list += value
+
+        
     def new_word(self):
+        self.category_selected = ['English']    ## Implementar função
+        self.get_from_category()
+
         self.chosen_word = random.choice(self.word_list).upper()
         self.display = [c if (c == '-' or c == ' ') else '_' for c in self.chosen_word]
 
