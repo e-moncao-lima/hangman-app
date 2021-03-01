@@ -78,7 +78,6 @@ class Hangman(Ui_MainWindow):
         for key, value in self.word_dict.items():
             if key in self.category_selected:
                 self.word_list += value
-
         
     def new_word(self):
         self.category_selected = ['English']    ## Implementar função
